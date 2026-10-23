@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+*.log
+generated_docs/
+.zoho-credentials.json
+.DS_Store

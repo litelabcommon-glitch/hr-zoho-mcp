@@ -1,0 +1,46 @@
+{
+  "name": "zoho-hr-suite-mcp",
+  "version": "1.0.0",
+  "description": "Universal Zoho CRM, Zoho Books, Zoho People/Recruit & Dynamic HR Document Automation MCP Server and Antigravity Plugin",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "zoho-hr-mcp": "./dist/index.js",
+    "zoho-hr-setup": "./dist/cli-setup.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "setup": "node dist/cli-setup.js",
+    "test": "node dist/self-test.js"
+  },
+  "keywords": [
+    "zoho",
+    "zoho-crm",
+    "zoho-books",
+    "zoho-people",
+    "zoho-recruit",
+    "hr",
+    "mcp",
+    "antigravity",
+    "claude",
+    "docx",
+    "pdf"
+  ],
+  "author": "litelab",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "docx": "^8.5.0",
+    "dotenv": "^16.4.5",
+    "pdfkit": "^0.15.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/pdfkit": "^0.13.5",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  }
+}

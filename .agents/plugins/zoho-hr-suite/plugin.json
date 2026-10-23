@@ -1,0 +1,12 @@
+{
+  "name": "zoho-hr-suite",
+  "displayName": "Zoho HR, CRM & Books Autopilot",
+  "version": "1.0.0",
+  "description": "Manage Zoho CRM, Zoho Books, Zoho Recruit/People, HR conversation logs, pipeline stages, and custom client DOCX/PDF documents entirely from Antigravity chat.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Check my Zoho connection status or help me link my Zoho Self-Client keys in chat",
+    "Log today's HR call with our client, advance their Deal stage, and schedule a follow-up task",
+    "Generate a custom Client Service Agreement (DOCX & PDF) with milestone billing and attach it to their Zoho CRM record"
+  ]
+}

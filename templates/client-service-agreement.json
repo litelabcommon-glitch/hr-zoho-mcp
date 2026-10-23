@@ -1,0 +1,29 @@
+{
+  "id": "client-service-agreement",
+  "title": "MASTER CLIENT SERVICE & HR CONSULTING AGREEMENT",
+  "subtitle": "Confidential Service Level & Commercial Agreement",
+  "description": "Standard B2B agreement for client onboarding, recruitment/HR services, deliverables, and milestone billing.",
+  "defaultSections": [
+    {
+      "heading": "1. Scope of Services",
+      "body": "The Service Provider agrees to deliver end-to-end HR consulting, talent acquisition, and client lifecycle management services as mutually agreed with {{client_company}} (represented by {{client_name}}).",
+      "bullets": [
+        "Dedicated HR account management and regular progress reporting.",
+        "Candidate sourcing, screening, documentation verification, and onboarding coordination.",
+        "Compliance and documentation management tailored to client specifications."
+      ]
+    },
+    {
+      "heading": "2. Commercial Terms & Invoicing",
+      "body": "Total agreed commercial value: {{currency}} {{deal_amount}}. Invoices will be issued via Zoho Books according to the agreed milestone schedule below and are payable within 15 calendar days of issuance."
+    },
+    {
+      "heading": "3. Replacement & Quality Guarantee",
+      "body": "Should any placed candidate or deliverable require replacement within the agreed guarantee period due to performance or voluntary exit, the Service Provider shall provide a qualified replacement at no additional sourcing fee."
+    },
+    {
+      "heading": "4. Confidentiality & Data Protection",
+      "body": "Both parties agree to maintain strict confidentiality regarding all proprietary business information, candidate profiles, compensation structures, and internal documentation shared during the engagement."
+    }
+  ]
+}

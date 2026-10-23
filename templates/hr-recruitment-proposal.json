@@ -1,0 +1,25 @@
+{
+  "id": "hr-recruitment-proposal",
+  "title": "COMMERCIAL PROPOSAL & STATEMENT OF WORK",
+  "subtitle": "Customized HR & Talent Acquisition Proposal",
+  "description": "Proposal document for prospective or active clients detailing deliverables, timeline, and fee breakdown.",
+  "defaultSections": [
+    {
+      "heading": "1. Executive Summary",
+      "body": "Prepared exclusively for {{client_company}} ({{client_name}}). This proposal outlines our tailored approach, timeline, and commercial structure to fulfill your current HR and staffing requirements efficiently."
+    },
+    {
+      "heading": "2. Delivery Methodology & Pipeline Stages",
+      "bullets": [
+        "Stage 1 — Requirement Alignment & Role Profiling (Days 1–2)",
+        "Stage 2 — Active Sourcing, HR Screening & Shortlisting (Days 3–7)",
+        "Stage 3 — Client Interviews, Selection & Documentation Verification",
+        "Stage 4 — Offer Rollout, Onboarding & Post-Joining Follow-up"
+      ]
+    },
+    {
+      "heading": "3. Commercial Investment",
+      "body": "Estimated total value: {{currency}} {{deal_amount}}. Detailed fee breakdown and milestone schedule are provided in the table below."
+    }
+  ]
+}

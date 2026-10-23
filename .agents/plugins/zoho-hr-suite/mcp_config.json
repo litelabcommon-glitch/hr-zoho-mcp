@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "zoho-hr-suite": {
+      "command": "node",
+      "args": [
+        "dist/index.js"
+      ]
+    }
+  }
+}

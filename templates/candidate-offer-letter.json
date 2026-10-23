@@ -1,0 +1,28 @@
+{
+  "id": "candidate-offer-letter",
+  "title": "OFFER OF EMPLOYMENT / ENGAGEMENT LETTER",
+  "subtitle": "Private & Confidential",
+  "description": "Customizable offer or onboarding letter for candidates/clients with compensation table and joining terms.",
+  "defaultSections": [
+    {
+      "heading": "1. Position & Engagement Overview",
+      "body": "Dear {{client_name}},\n\nWe are pleased to extend this formal offer of engagement with {{client_company}}. Your skills and background stood out during our evaluation process, and we look forward to welcoming you."
+    },
+    {
+      "heading": "2. Compensation & Benefits Structure",
+      "body": "Your total compensation package is {{currency}} {{deal_amount}} per annum / engagement period, structured as detailed in the schedule below."
+    },
+    {
+      "heading": "3. Documentation & Onboarding Requirements",
+      "bullets": [
+        "Government-issued photo identification and address verification.",
+        "Educational certificates and prior employment relieving/experience letters.",
+        "Signed copy of this letter and non-disclosure agreement."
+      ]
+    },
+    {
+      "heading": "4. Acceptance of Offer",
+      "body": "Please sign and return a copy of this document to confirm your acceptance and scheduled start date."
+    }
+  ]
+}
