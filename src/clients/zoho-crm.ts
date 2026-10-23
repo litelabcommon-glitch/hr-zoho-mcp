@@ -327,9 +327,14 @@ export class ZohoCrmClient {
 
     // 3. Log an automatic Stage Transition Audit Note so client progress is always documented
     const timestamp = new Date().toISOString();
+    const activeUser = authManager.loadConfig()?.authenticatedUser;
+    const actorLine = activeUser
+      ? `${activeUser.fullName} <${activeUser.email}> (${activeUser.profileName || "HR Profile"})`
+      : "HR Autopilot";
     const noteTitle = `[Stage Update] ${previousStage} → ${newStage}`;
     const noteContent = [
       `Client / Record: ${recordDisplayName}`,
+      `Updated By: ${actorLine}`,
       `Stage Field (${stageFieldName}): "${previousStage}" → "${newStage}"`,
       `Timestamp: ${timestamp}`,
       `HR Progress Summary / Reason:`,
@@ -503,7 +508,12 @@ export class ZohoCrmClient {
     fieldUpdateResult?: any;
     tasksCreated: any[];
   }> {
+    const activeUser = authManager.loadConfig()?.authenticatedUser;
+    const actorLine = activeUser
+      ? `${activeUser.fullName} <${activeUser.email}> (${activeUser.profileName || "HR Profile"})`
+      : "HR Autopilot";
     const lines: string[] = [
+      `Logged By: ${actorLine}`,
       `Channel: ${params.channel}`,
       `Date: ${new Date().toISOString()}`,
       ``,
