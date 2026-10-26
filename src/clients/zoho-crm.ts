@@ -135,13 +135,11 @@ export class ZohoCrmClient {
       return res.data || [];
     }
 
-    // If no search filter is passed, list the most recently modified records
+    // If no search filter is passed, list records
     const res = await this.request<{ data: any[] }>(`/${moduleName}`, {
       params: {
         page,
         per_page: perPage,
-        sort_by: "Modified_Time",
-        sort_order: "desc",
       },
     });
     return res.data || [];
